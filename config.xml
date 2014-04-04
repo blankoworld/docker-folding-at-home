@@ -1,0 +1,20 @@
+<config>
+  <!-- HTTP Server -->
+  <allow v='127.0.0.1,0.0.0.0'/>
+
+  <!-- Remote Command Server -->
+  <command-allow-no-pass v='127.0.0.1,0.0.0.0'/>
+
+  <!-- Client Control -->
+  <fold-anon v='true'/>
+
+  <!-- Slot Control -->
+  <power v='medium'/>
+
+  <!-- User Information -->
+  <team v='51'/>
+  <user v='[pc-infopratique]blankoworld'/>
+
+  <!-- Folding Slots -->
+  <slot id='0' type='CPU'/>
+</config>
